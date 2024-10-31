@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root gridLinesVisible="true" minHeight="400.0" minWidth="600.0" style="-fx-border-color: red; -fx-border-width: 3px;" type="GridPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" minWidth="200.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="200.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints fx:id="companyOverviewGrid" minHeight="10.0" vgrow="ALWAYS" />
+   </rowConstraints>
+</fx:root>
